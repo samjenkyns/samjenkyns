@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <title>STOP the Spread</title>
+    <meta charset="utf-8">
+    <meta lang="English">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="beatutification.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. 
+                Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div>
+    <script>function myFunction(idCheck, idText) {
+            var checkBox = document.getElementById(idCheck);
+            var text = document.getElementById(idText);
+            if (checkBox.checked == true) {
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }</script>
+    </div>
+    
+    <div id="header">
+        <header>
+        <img src="hm gov white.png" alt="HM Government Logo" id="govlogo" width="170px" height="120px">
+        <img src="NHS Blue on white.jpg" alt="NHS Logo" class="nhs" width="170px" height="80px">
+        </header>
+    </div>
+    <h1 class="NHSfont">If you think you have developed symptoms of COVID-19,
+        or you have had a positive test you must...</h1>
+    <img src="S.T.O.P LOGO.png" alt="S.T.O.P. Logo" class="STOP">
+    
+        <p class="textbox">
+        <em><u>S.T.O.P.</u></em> is the acronym you need to remember to
+        help reduce infections and to protect your friends and family.
+        <br><br>
+        If you follow the steps in the <em><u>S.T.O.P.</u></em> acronym,
+        you can be sure that you can help protect others
+        and stop the spread of COVID-19.
+        <br><br>
+        The latest COVID-19 varient (named‘VUI – 202012/01’) is around
+        71% more transmissable than the previous strain of the virus. 
+        <br><br> It is vitally important that you stay at home and help protect 
+        the NHS and save lives.
+    </p>
+    
+    <br>
+    <a href="https://covid19.nhs.uk" class="link1">Download the NHS COVID-19 app here.</a>
+    <a href="https://www.gov.uk/find-coronavirus-local-restrictions" class="link2">
+        Find out what tier your area is in.</a> <br><br>
+
+    <h2>S - <em>Symptoms.</em></h2>
+    <p id="backbox"> Check your symptoms and see if you need to self-isolate.</p>
+
+    <h2>T - <em>Test.</em></h2>
+    <p id="backbox"> If you have symptoms, book a free test via the NHS app or the Government website.</p>
+
+    <h2>O - <em>Outbreak.</em></h2>
+    <p id="backbox"> Stop the outbreak of Coronavirus by self-isolating at home and only leaving to get tested.
+    </p>
+
+    <h2>P - <em>Protect.</em></h2>
+    <p id="backbox"> Protect others by maintaining social distancing, wear a mask or face covering,
+        washing or sanitizing your hands reguarly and downloading the official NHS COVID-19 App. </p>
+
+       
+    <H2>Symptom Checker</H2>
+
+    <div id="backbox"> 
+    <p>If you think you are suffering from symptoms of Coronavirus,
+        please use the symptom checker below to check if you need to
+        self-isolate and take a test.</p>
+        
+    <label class="test">
+    <input type="checkbox" id="myCheck" onclick="myFunction('myCheck','text')"> A new, continuous cough –<br>
+    this means coughing a lot for more than an hour,
+    or 3 or more coughing episodes in 24 hours
+    <br>(if you usually have a cough, it may be worse than usual). <br> <br>
+    </label>
+
+    <label class="test">
+    <input type="checkbox" id="myCheck1" onclick="myFunction('myCheck1','text')"> A high temperature –<br>
+    this means you feel hot to touch on your chest or back<br>
+    (you do not need to measure your temperature). <br> <br>
+    </label>
+
+    <label class="test">
+    <input type="checkbox" id="myCheck2" onclick="myFunction('myCheck2','text')">
+    A loss or change to your sense of smell or taste –<br>this means you've noticed
+    you cannot smell or taste anything, <br>or things smell or taste different to normal. <br> <br>
+    </label>
+    <br>
+
+    <label class="test">
+    <input type="checkbox" id="myCheck3" onclick="myFunction('myCheck3','text1')"> None of the above. <br> <br>
+    </label>
+    </div>
+
+    <p id="text" style="display:none">You are displaying symptoms of COVID-19.
+        You must self-isolate immediatly for 10 days and book a test as soon as you can.
+    </p>
+    
+    <p id="text1" style="display:none">You do not need to self-isolate or book a test.
+        Please adhere to the retrictions in your Region and follow the Government
+        Coronavirus restrictions. 
+    </p>
+
+        <h2>More Information</h2>
+        <p id="backbox">If you have any of the above symptoms or need more information, 
+            please visit&nbsp;<a href="https://www.nhs.uk/coronavirus" class="link3">www.nhs.uk/coronavirus</a></p>
+        
+            <!--
+                        If button is required, enable this:
+                        <input type="submit" value="Check Symptoms" /> -->
+
+        <footer>
+            <small>&copy; Copyright 2021, Sam Jenkyns</small>
+            <a 
+            href="/index.html"
+            target="_blank">
+            Go Back
+            </a>
+        </footer>
+
+
+</body>
+
+</html>

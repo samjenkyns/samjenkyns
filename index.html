@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>samjenkyns.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">projects</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>samjenkyns.</h1>
+        <h2>Web Developer / Gamer / Cat Lover</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">projects</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+    
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>projects.</h1>
+        <section>
+            <h2>Pomodoro Timer.</h2>
+            <p>
+                An interactive timer created in HTML, CSS & JavaScript. It allows the user to set breaks and work time according to their needs. It also plays a bell sound effect when the timer is done and has a visual ring countdown. <br><br>To go back to this website after viewing please click on the 'Go Back' link at the bottom of the page.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <button class="btn_one" onclick="window.location.href='/pomodoro.html'">Pomodoro Timer</button>
+            <h2>NHS S.T.O.P Campaign.</h2>
+            <p>
+                This website was created to illustrate what an NHS campaign would look like after I thought of the idea during the pandemic. Follow the link below to have a look. It features an interactive symptom checker and information on Coronavirus. <br><br>To go back to this website after viewing please click on the 'Go Back' link at the bottom of the page.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <button class="btn_one" onclick="window.location.href='/NHS.html'">NHS S.T.O.P Campaign</button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    I am a self taught web developer with skills in HTML, CSS & WordPress.
+                </p>
+                <p>
+                    Due to losing my job because of COVID-19, I decided to pursue a life-long dream of becoming a Web Developer and self-taught myself using YouTube and Udemy. 
+                    I have a huge passion for web development and would love to work full time as a web developer.
+                </p>
+                <p>
+                    I have always had an interest in Coding and Computers from a young age.
+                </p>
+            </section>
+            <section>
+                <h2>skills</h2>
+                <p>
+                    I specialise in Front End Development. My skills include HTM, CSS, JavaScript, GIT, GitHub and WordPress.
+                </p>
+                <button class="btn_one" onclick="location.href='https://1drv.ms/b/s!AoOd9epj7aW8pX1qRcCA1lSr8Tf7?e=lUGuSp'">Code Institute Certificate</button>
+                <button class="btn_one" onclick="location.href='https://1drv.ms/b/s!AoOd9epj7aW8pX7QNYiT-QKrLG5i?e=EoJlNs'">Future Learn Coding for the Web Certificate</button>
+                <button class="btn_one" onclick="location.href='https://1drv.ms/b/s!AoOd9epj7aW8pX_UerWW5jFSQ2vE?e=uErXYZ'">Web Developer Bootcamp Certificate</button>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+               
+                <p><br>
+                📱: +447486 073290<br><br>
+                📧: sam_jenkyns@outlook.com <br> <br>
+                <img src="https://img.icons8.com/fluent-systems-regular/30/000000/linkedin.png"/> <a href="//www.linkedin.com/in/samuel-jenkyns-99a3ba15b/">Sam Jenkyns Profile Page</a>
+                </p>
+               
+                <p>
+
+
+
+                   <!-- <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                    -->
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            made on earth by sam jenkyns <br>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
